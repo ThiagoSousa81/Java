@@ -1,6 +1,5 @@
-class Main {
-    public static void Main(String[] args)
-    {
+class Java-ConsoleApp {
+    public static void main(String[] args){
         System.out.println("Hello word!");
     }
 }
