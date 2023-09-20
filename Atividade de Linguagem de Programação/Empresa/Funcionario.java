@@ -8,4 +8,10 @@ class Funcionario {
         c.telefone = telefone;
         c.cpf = cpf;
     }
+
+
+
+    public String consultar_Cliente(String nome) {
+        
+    }
 }
