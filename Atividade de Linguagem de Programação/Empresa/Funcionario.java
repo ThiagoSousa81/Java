@@ -1,8 +1,8 @@
 package Empresa;
 class Funcionario {
-
+    Cliente c = new Cliente();
+    
     public void cadastrar_Cliente(int codigo, String nome, String telefone, String cpf){
-        Cliente c = new Cliente();
         c.codigo = codigo;
         c.nome = nome;
         c.telefone = telefone;
@@ -12,6 +12,6 @@ class Funcionario {
 
 
     public String consultar_Cliente(String nome) {
-        
+
     }
 }
