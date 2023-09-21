@@ -9,7 +9,9 @@ class Funcionario {
         c.cpf = cpf;
     }
 
+    public void realizar_Venda(int codigo_Venda, int codigo_Cliente, int codigo_Funcionario, int codigos_Veiculos){
 
+    }
 
     public String consultar_Cliente(String nome) {
 
