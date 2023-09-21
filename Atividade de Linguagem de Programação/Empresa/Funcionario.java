@@ -3,6 +3,9 @@ class Funcionario {
     Cliente c = new Cliente();
     Vendas v = new Vendas();
     
+    String nome;
+    String email;
+
     public void cadastrar_Cliente(int codigo, String nome, String telefone, String cpf){
         c.codigo = codigo;
         c.nome = nome;
