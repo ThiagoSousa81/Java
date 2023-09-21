@@ -12,15 +12,17 @@ class Main {
             cmd = sc.next();
 
             if (cmd == 1) {
-                System.out.println("\nCadastro de Clientes.")
+                System.out.println("\nCadastro de Clientes.");
+                System.out.println("\n");
+                f.cadastrar_Cliente();
             }
             else
                 if (cmd == 2) {
-                System.out.println("\nConsulta de Cliente")
+                System.out.println("\nConsulta de Cliente");
             }
             else
                 if (cmd == 3) {
-                System.out.println("\nRealizar venda")
+                System.out.println("\nRealizar venda");          
             }
         }
     }
