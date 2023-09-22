@@ -11,6 +11,7 @@ class Funcionario {
         c.nome = nome;
         c.telefone = telefone;
         c.cpf = cpf;
+        
     }
 
     public void realizar_Venda(int codigo_Venda, int codigo_Cliente, int codigo_Funcionario, int codigos_Veiculos[]){
