@@ -4,4 +4,6 @@ class Cliente {
     String nome = "";
     String telefone = ""; 
     String cpf = "";
+
+    String[] registros = new String[4][10000];
 }
