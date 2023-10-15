@@ -5,6 +5,8 @@ class Funcionario {
     
     String nome;
     String email;
+    String Usuario;
+    String Senha;
 
     public void cadastrar_Cliente(String nome, String telefone, String cpf){               
         c.salvar_Cliente(nome, telefone, cpf);
