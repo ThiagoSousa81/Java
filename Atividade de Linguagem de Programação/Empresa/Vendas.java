@@ -15,4 +15,8 @@ class Vendas {
         this.data = data;
     }
 
+    public String relatorio(){        
+        return "Vendas\nNome: " + this.cliente + "\nCarro: " + this.carro + "\nFuncionário: " + this.funcionario + "\nData: " + this.data;
+    }
+
 }
