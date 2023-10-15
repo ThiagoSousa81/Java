@@ -1,9 +1,18 @@
 package Empresa;
 
 class Vendas {
-    int n_venda;
-    String cliente;
-    String carro; //Difícilmente algém vai comprar 2 carros
-    String funcionario;
-    String data;
+    private int n_venda;
+    private String cliente;
+    private String carro; //Dificilmente alguém vai comprar 2 carros
+    private String funcionario;
+    private String data; //O certo seria importar o tipo DateTime, mas é possível fazer sem ele
+
+    public void realizar_Venda(int n_venda, String cliente, String carro, String funcionario, String data) {
+        this.n_venda = n_venda;
+        this.cliente = cliente;
+        this.carro = carro;
+        this.funcionario = funcionario;
+        this.data = data;
+    }
+
 }
