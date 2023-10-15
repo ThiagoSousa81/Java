@@ -6,12 +6,8 @@ class Funcionario {
     String nome;
     String email;
 
-    public void cadastrar_Cliente(int codigo, String nome, String telefone, String cpf){
-        c.codigo = codigo;
-        c.nome = nome;
-        c.telefone = telefone;
-        c.cpf = cpf;
-        c.salvar_Cliente();
+    public void cadastrar_Cliente(String nome, String telefone, String cpf){               
+        c.salvar_Cliente(nome, telefone, cpf);
     }
 
     public void realizar_Venda(int codigo_Venda, int codigo_Cliente, int codigo_Funcionario, int codigos_Veiculos[]){
