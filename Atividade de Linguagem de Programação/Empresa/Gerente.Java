@@ -7,4 +7,8 @@ class Gerente {
     public String obter_Relatorio_Vendas() {
         return v.relatorio();
     }    
+
+    public String obter_Promocao_Veiculo() {
+        
+    }
 }
