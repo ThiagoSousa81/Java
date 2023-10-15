@@ -8,5 +8,9 @@ class Veiculos{
         return preco_Veiculo;
     }
 
+    public String relatorio() {
+        return 
+    }
+
 
 }
