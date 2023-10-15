@@ -12,11 +12,11 @@ class Funcionario {
         c.salvar_Cliente(nome, telefone, cpf);
     }
 
-    public void realizar_Venda(){
-        
-    }
-
     public String consultar_Cliente(String nome) {
         c.consultar_Cliente(nome);
     }
+
+    public void realizar_Venda(){
+        
+    }    
 }
