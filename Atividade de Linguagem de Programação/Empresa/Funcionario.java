@@ -10,14 +10,11 @@ class Funcionario {
         c.salvar_Cliente(nome, telefone, cpf);
     }
 
-    public void realizar_Venda(int codigo_Cliente, int codigo_Funcionario, int codigos_Veiculos[]){
-        v.codigo_Venda = codigo_Venda;
-        v.codigo_Cliente = codigo_Cliente;
-        v.codigo_Funcionario = v.codigo_Funcionario;
-        v.codigos_Veiculos[] = codigos_Veiculos[];
+    public void realizar_Venda(){
+        
     }
 
     public String consultar_Cliente(String nome) {
-        
+        c.consultar_Cliente(nome);
     }
 }
