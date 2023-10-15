@@ -14,4 +14,8 @@ class Cliente {
     public String consultar_Cliente(String nome) {
         return "Nome: " + this.nome + "\nTelefone: " + this.telefone + "\nCPF: " + this.cpf;
     }
+
+    public String relatorio() {
+        return "Clientes\nNome: " + this.nome + "\nTelefone: " + this.telefone + "\nCPF: " + this.cpf;
+    }
 }
