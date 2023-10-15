@@ -14,4 +14,12 @@ class Gerente {
     public String obter_Promocao_Veiculo() {
         return car.relatorio();
     }
+
+    public String obter_Relatorio_Funcionarios() {
+        return f.relatorio();        
+    }
+
+    public String obter_Relatorio_Clientes() {
+        return c.relatorio();
+    }
 }
