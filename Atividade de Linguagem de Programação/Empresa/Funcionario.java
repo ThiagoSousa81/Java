@@ -2,6 +2,7 @@ package Empresa;
 class Funcionario {
     Cliente c = new Cliente();
     Vendas v = new Vendas();
+    Veiculos car = new Veiculos();
     
     String nome;
     String email;
@@ -17,6 +18,6 @@ class Funcionario {
     }
 
     public void realizar_Venda(){
-        
+        v.realizar_Venda(0, c.nome, car.nome, this.nome, "16/10/2023");
     }    
 }
