@@ -5,6 +5,6 @@ class Gerente {
     Vendas v = new Vendas();
 
     public String obter_Relatorio_Vendas() {
-        v.
+        return v.relatorio();
     }    
 }
