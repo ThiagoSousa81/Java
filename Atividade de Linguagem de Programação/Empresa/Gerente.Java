@@ -12,6 +12,6 @@ class Gerente {
     }    
 
     public String obter_Promocao_Veiculo() {
-        
+        return car.relatorio();
     }
 }
