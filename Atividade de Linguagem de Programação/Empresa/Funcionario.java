@@ -17,6 +17,10 @@ class Funcionario {
         c.consultar_Cliente(nome);
     }
 
+    public String consultar_Veiculo(String nome) {
+        return "R$ " + car.retonar_Preco(nome);
+    }
+
     public void realizar_Venda(){
         v.realizar_Venda(0, c.nome, car.nome, this.nome, "16/10/2023");
     }    
