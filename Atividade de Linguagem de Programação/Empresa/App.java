@@ -7,6 +7,11 @@ class Main {
         Funcionario f = new Funcionario();
         String cmd;
 
+        System.out.println("Sistema de Concessionária - Login");
+        System.out.print("Usuário: ");
+        String user = sc.nextLine();
+        
+
         while (true) {
             System.out.println("Digite a ação que deseja realizar:\n\n1 - Consultar Cliente\n2 - Cadastrar Cliente\n3 - Realizar venda");
             cmd = sc.next();
