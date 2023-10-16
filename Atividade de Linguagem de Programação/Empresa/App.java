@@ -10,7 +10,10 @@ class Main {
         System.out.println("Sistema de Concessionária - Login");
         System.out.print("Usuário: ");
         String user = sc.nextLine();
-        
+
+        if (user != "Admin") {
+            System.out.println("Você não tem permissão de acessar o sistema!");
+        }
 
         while (true) {
             System.out.println("Digite a ação que deseja realizar:\n\n1 - Consultar Cliente\n2 - Cadastrar Cliente\n3 - Realizar venda");
