@@ -13,25 +13,21 @@ class Main {
 
         if (user != "Admin") {
             System.out.println("Você não tem permissão de acessar o sistema!");
+            Application.Exit();
         }
 
-        while (true) {
-            System.out.println("Digite a ação que deseja realizar:\n\n1 - Consultar Cliente\n2 - Cadastrar Cliente\n3 - Realizar venda");
-            cmd = sc.next();
+        System.out.println("Escolha uma das opções abaixo:\n1 - Cadastro de Funcionários\n2 - Cadastro de Veículos\n3 - Gerar relatórios");
+        cmd.nextLine();
 
-            if (cmd == 1) {
-                System.out.println("\nCadastro de Clientes.");
-                System.out.println("\n");
-                f.cadastrar_Cliente();
-            }
-            else
-                if (cmd == 2) {
-                System.out.println("\nConsulta de Cliente");
-            }
-            else
-                if (cmd == 3) {
-                System.out.println("\nRealizar venda");          
-            }
+        switch (cmd){
+
+            case cmd == "1" :
+                
+            break;
+
+
         }
+       
+        
     }
 }
