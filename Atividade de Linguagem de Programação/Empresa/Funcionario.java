@@ -22,7 +22,7 @@ class Funcionario {
     }
 
     public void realizar_Venda(){
-        v.realizar_Venda(0, c.nome, car.nome, this.nome, "16/10/2023");
+        v.realizar_Venda(0, c.nome, car.nome, car.retonar_Preco(), this.nome, "16/10/2023");
     }    
 
     public String relatorio() {
